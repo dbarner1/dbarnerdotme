@@ -1,5 +1,4 @@
 import React from 'react';
-import { CONSTANTS } from './constants';
 import './App.css';
 
 export default function() {

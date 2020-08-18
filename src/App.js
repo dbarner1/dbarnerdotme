@@ -8,7 +8,8 @@ import ShortBits from './ShortBits';
 import './App.css';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState(CONSTANTS.HOME);
+  const INITIAL_ROUTE = CONSTANTS.DRAFT_BITS;
+  const [currentPage, setCurrentPage] = useState(INITIAL_ROUTE);
 
   return (
     <div className="App">

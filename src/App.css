@@ -9,6 +9,20 @@
   color: white;
 }
 
+.draftBitWrapper {
+  display: 'flex';
+  flex-wrap: 'wrap';
+  background-color: white;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.draftBitText {
+  color: black;
+}
+
 .headerText {
   max-width: 400px
 }
